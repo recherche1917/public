@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>공공재생에너지법 제정 촉구 문자 보내기</title>
+  <style>
+    :root{
+      --paper: #fcf9f4;
+      --orange-dark: #d9480f;
+      --orange-mid:  #f76707;
+      --orange-lite: #ff922b;
+      --fill-light: #ffe0cc;
+    }
+    body {
+      font-family:AppleSDGothic, 'Noto Sans KR', 'Noto Sans CJK KR', NanumGothic, MalgunGothic, Dotum, Arial, sans-serif;
+      text-align:center;
+      padding:20px;
+      background-color: var(--paper);
+      background-image: linear-gradient(to bottom,
+                        var(--paper) 0%,
+                        var(--paper) 75%,
+                        rgba(217,72,15,0.08) 92%,
+                        rgba(217,72,15,0.18) 100%);
+    }
+    .top-title {
+      font-size:20px;           
+      font-weight:700;
+      color: var(--orange-dark);
+      margin-top:26px;          
+      margin-bottom:20px;       
+    }
+    .title-line, .title-sub {
+      font-size:34px;                 
+      font-weight:800;
+      margin: 6px 0;
+      color: var(--fill-light);       
+      -webkit-text-stroke: 1px var(--orange-dark);
+      text-stroke: 1px var(--orange-dark);
+    }
+    .title-sub { margin-bottom: 14px; }
+    @supports not (-webkit-text-stroke: 1px #000) {
+      .title-line, .title-sub {
+        color: var(--orange-dark);
+        text-shadow:
+          1px 0 0 var(--orange-dark),
+          -1px 0 0 var(--orange-dark),
+          0 1px 0 var(--orange-dark),
+          0 -1px 0 var(--orange-dark),
+          1px 1px 0 var(--orange-dark),
+          -1px 1px 0 var(--orange-dark),
+          1px -1px 0 var(--orange-dark),
+          -1px -1px 0 var(--orange-dark);
+      }
+    }
+    p.subtitle {
+      margin-bottom: 14px;
+      color: var(--orange-mid);
+      line-height: 1.4;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    p.subtitle .line1, 
+    p.subtitle .line2 {
+      font-size: 21px;
+      font-weight: 600;
+    }
+    .arrow-down {
+      font-size: 28px;
+      color: var(--orange-mid);
+      font-weight: 900;
+      text-shadow: 0 0 1px currentColor;
+      margin-bottom: 18px;
+    }
+    .sms-cta {
+      font-size:18px;
+      font-weight:bold;
+      display:inline-block;
+      color:#ffffff;
+      text-decoration:none;
+      padding:19px 20px 16px;
+      border:1px solid transparent;
+      border-radius:10px;
+      line-height:1.5;
+      margin: 15px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      width: 80%;
+      max-width: 600px;
+    }
+    .btn-darkorange { background:var(--orange-dark); border-color:var(--orange-dark); }
+    .btn-midorange { background:var(--orange-mid);  border-color:var(--orange-mid);  }
+    .btn-lightorange{ background:var(--orange-lite); border-color:var(--orange-lite);}
+    .footer-note {
+      font-size:16px;
+      font-weight:600;
+      color: var(--orange-dark);
+      margin-top:34px;
+      margin-bottom:44px;
+      line-height:1.4;
+    }
+  </style>
+</head>
+<body>
+
+<div class="top-title">공공재생에너지법 제정 촉구 문자행동</div>
+
+<div class="title-line">“공공재생에너지법 제정으로,</div>
+<div class="title-line">정의로운 전환을”</div>
+<div class="title-sub">이제 국회가 나설 차례입니다</div>
+
+<p class="subtitle">
+  <span class="line1">아래 세 개의 버튼들을 눌러</span><br>
+  <span class="line2">국회의원들에게 문자를 보내주세요!</span>
+</p>
+<div class="arrow-down">↓</div>
+
+<div>
+  <a href="#"
+     class="sms-cta btn-darkorange"
+     data-numbers="010-9337-5502,010-9938-8182"
+     data-message="더불어민주당 의원님, 저는 기후재앙으로 고통을 겪는 모두의 일과 삶을 걱정하는 시민입니다. 지난달, 정의로운 에너지 전환을 요구하는 5만여 시민들의 청원으로 공공재생에너지법안이 국회에 제출됐습니다. 여당인 더불어민주당은 이같은 시민들의 목소리를 당론으로 채택하여 시급히 공공재생에너지 입법을 추진해야하지 않을까요? 정의로운 전환, 기후정의가 필요합니다. 5만 국민동의청원을 달성한 공공재생에너지법, 이제 민주당이 당론으로 힘차게 추진해주셨으면 좋겠습니다."
+     onclick="return buildSmsLink(this)">
+     하나. 더불어민주당에 &quot;공공재생에너지법 당론 채택·입법 추진 요구&quot; 문자 보내기
+  </a>
+</div>
+
+<div>
+  <a href="#"
+     class="sms-cta btn-midorange"
+     data-numbers="010-2871-7749,010-7110-2748,010-5225-1429"
+     data-message="국회 기후특위 위원님, 저는 기후재앙으로 고통을 겪는 모두의 일과 삶을 걱정하는 시민입니다. 지난달, 정의로운 에너지 전환을 요구하는 5만여 시민들의 청원으로 공공재생에너지법안이 국회에 제출됐습니다. 국회는 이같은 시민들의 목소리를 반영해 시급히 공공재생에너지 입법을 추진해야하지 않을까요? 정의로운 전환, 에너지 공공성을 위해 국회 기후특위의 역할이 필요합니다. 5만 국민동의청원을 달성한 공공재생에너지법 제정, 이제 국회 기후특위가 힘차게 나서주십시오."
+     onclick="return buildSmsLink(this)">
+     둘. 국회 기후특위에 &quot;공공재생에너지, 정의로운 전환 요구&quot; 문자 보내기
+  </a>
+</div>
+
+<div>
+  <a href="#"
+     class="sms-cta btn-lightorange"
+     data-numbers="010-5657-1448,010-9938-8182,010-3340-0007"
+     data-message="국회 산자위 위원님, 저는 기후재앙으로 고통을 겪는 모두의 일과 삶을 걱정하는 시민입니다. 지난달, 정의로운 에너지 전환을 요구하는 5만여 시민들의 청원으로 공공재생에너지법안이 국회에 제출됐습니다. 이제 국회 산자위는 이같은 시민들의 목소리를 반영해 신속히 입법 논의에 나서야 한다고 생각합니다. 정의로운 전환, 에너지 공공성을 실현하기 위해서는 국회 산자위의 역할이 중요합니다. 5만 국민동의청원을 달성한 공공재생에너지법 제정, 이제 국회 산자위 위원님들께서 힘차게 나서주십시오."
+     onclick="return buildSmsLink(this)">
+     셋. 국회 산자위에 &quot;공공재생에너지법 신속 논의 요구&quot; 문자 보내기
+  </a>
+</div>
+
+<div class="footer-note">
+  공공재생에너지 확대·정의로운 전환을 통한<br>
+  발전노동자 총고용 보장 2025 공동행동
+</div>
+
+<script>
+function buildSmsLink(el) {
+  try {
+    var rawNums = (el.getAttribute('data-numbers') || '').replace(/\s+/g, '');
+    var msg = el.getAttribute('data-message') || '';
+    if (!rawNums) return true;
+
+    var isAndroid = /android/i.test(navigator.userAgent);
+    var nums = rawNums.split(',').filter(Boolean);
+
+    var href = isAndroid
+      ? 'smsto:' + nums.join(';') + '?body=' + encodeURIComponent(msg)
+      : 'sms:/open?addresses=' + nums.join(',') + '&body=' + encodeURIComponent(msg);
+
+    el.setAttribute('href', href);
+    return true;
+  } catch (e) {
+    return true;
+  }
+}
+</script>
+
+</body>
+</html>
